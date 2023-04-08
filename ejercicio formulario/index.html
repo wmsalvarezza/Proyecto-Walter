@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="images form/formulario.jpg" alt="formulario">
+    <form action="">
+        <fieldset>
+            <legend>Información personal</legend>
+            Nombre: <input type="text" name="nombre">
+            <br>
+            Edad: <input type="text" name="edad" size="2">
+            <br>
+            Dirección: <input type="text" name="dirección">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Máximo nivel de estudio alcanzado</legend>
+            <div>Primario</div>
+            <input type="radio" name="pregunta 1" value="primario"/>
+            <div>Secundario</div>
+            <input type="radio" name="pregunta 2" value="secundario"/>
+            <div>Terciario</div>
+            <input type="radio" name="pregunta 3" value="terciario"/>
+            <div>Universitario</div>
+            <input type="radio" name="pregunta 4"/>
+            <br>
+        <label for="area">Comentarios:</label>
+        <textarea name="area" id="area" cols="30" rows="10"></textarea>
+        </fieldset>
+        <br>
+        
+        <label for="ocupacion">Ocupación:</label>
+        <select name="ocupacion" id="ocupacion">
+            <option value="E">Estudia</option>
+            <option value="T">Trabaja</option>
+            <option value="EyT">Estudia y trabaja</option>
+            <option value="N">Ninguna de las anteriores</option>
+        </select>
+        <br>
+        
+        <label for="horario disponible">Horario disponible:</label>
+        <select name="horario disponible" id="horario disponible">
+            <option value="M">Mañana</option>
+            <option value="T">Tarde</option>
+            <option value="N">Noche</option>
+        </select>
+        <label for="telefono">Teléfono</label>
+        <input type="number" name="telefono" id="telefono">
+
+        <label for="correo">Correo electrónico</label>
+        <input type="text" name="correo" id="correo">
+
+        <br>
+        <input type="submit">
+        <input type="reset" value="Borar campos">
+    </form>
+</body>
+</html>
