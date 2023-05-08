@@ -1,0 +1,131 @@
+header{
+    margin: 0px;
+    padding: 50px;
+    background-color: black;
+}
+
+a{
+    width: 40px;
+    font-weight: 600;
+    background-color: black;
+    border-radius: 5px;
+    border: 3px solid white;
+    text-decoration: none;
+    padding: 12px;
+    margin: 12px;
+
+}
+
+
+main{
+    margin:0px;
+    padding: 15px;
+    border:5px solid black; 
+    background-image: url(../images/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1800px ;
+    background-attachment: fixed;
+    background-size: cover ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+h1{
+    color: greenyellow;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal; 
+}
+
+h2{
+    color:greenyellow ;
+}
+
+p{
+    color: whitesmoke; 
+}
+
+ul{
+    color: whitesmoke;
+    
+}
+
+
+.textoVerde{
+    color: greenyellow;
+    
+}   
+
+.textoBlanco{
+    color:whitesmoke
+}
+
+
+.textoNaranja{
+    color: orangered;
+}
+
+img{
+    border-radius: 10px;
+    border: 7px solid rgb(4, 4, 76);
+    text-align: center;
+}
+iframe{
+    border-radius: 10px;
+    border:7px solid rgb(4, 4, 76);
+    text-align: center;
+}
+
+.flex-container{
+    display:flex;
+    margin: 15px;
+    padding:15px;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: larger;
+}
+
+.grid-layout{
+    display: grid;    
+    grid-template-columns:27% 35% auto ;
+    justify-content: space-around;
+    text-align:justify;
+    margin:20px;
+    padding: 20px;
+    text-align: justify;
+    font-size: large;
+}
+.grid-layout_{
+    display: grid;    
+    grid-template-columns:50% 50% ;
+    justify-content: space-around;
+    text-align:justify;
+    margin:15px;
+    padding: 15px;
+    text-align: justify;
+    font-size: large;
+}
+div{
+    margin:15px;
+    padding: 15px;
+    border: 4px solid black;
+    font-size: large;
+    justify-content: center;
+}
+
+.fondoNaranja{
+    background-color: orangered;
+}
+.fraseInicial{
+display: flex;
+width: 94%;
+font-size: larger;
+}
+
+
+footer{
+    margin:0px;
+    padding: 50px;
+    background-color: black;
+    text-align: justify;
+}

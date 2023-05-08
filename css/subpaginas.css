@@ -1,0 +1,76 @@
+
+header{
+    margin: 0px;
+    padding: 20px;
+    background-color: black;
+}
+
+a{
+    width: 40px;
+    font-weight: 600;
+    background-color: black;
+    border-radius: 5px;
+    border: 3px solid white;
+    text-decoration: none;
+    padding: 12px;
+    margin: 12px;
+}
+
+body{
+    margin: 20px;
+    padding: 20px; 
+    background-image: url(../images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1200px ;
+    background-attachment:scroll;
+    background-size: cover;
+}
+
+section{
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+img{
+    border-radius: 10px;
+    border: 7px solid rgb(4, 4, 76);
+    text-align: center;
+}
+
+iframe{
+    border-radius: 10px;
+    border:7px solid rgb(4, 4, 76);
+    text-align: center;
+}
+
+h1{
+    color: greenyellow;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal; 
+}
+
+p{
+    color: whitesmoke;
+    font-size: large;
+}
+
+ul{
+    color: whitesmoke;
+    font-size: large;
+}
+
+.textoVerde{color: greenyellow;
+}
+.textoBlanco{color:whitesmoke;}
+
+.textoNaranja{
+    color: orangered;
+}
+
+
