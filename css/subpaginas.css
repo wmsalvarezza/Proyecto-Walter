@@ -1,6 +1,5 @@
 
 header{
-    margin: 0px;
     padding: 20px;
     background-color: black;
 }
@@ -22,7 +21,7 @@ body{
     background-image: url(../images/fondo.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    height: 1200px ;
+    height: auto ;
     background-attachment:scroll;
     background-size: cover;
 }
@@ -60,17 +59,101 @@ p{
     font-size: large;
 }
 
+p:hover {
+    color: rgb(196, 237, 162);
+}
+
 ul{
     color: whitesmoke;
     font-size: large;
 }
 
+ul:hover{
+    color: rgb(202, 238, 149);
+}
+
 .textoVerde{color: greenyellow;
+font-size: larger;
 }
 .textoBlanco{color:whitesmoke;}
 
 .textoNaranja{
     color: orangered;
 }
+
+
+@media(min-width:320px) and (max-width:480px){
+
+    body{
+        margin: 4px;
+        padding: 4px; 
+        background-image: url(../images/fondo.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: auto ;
+        background-attachment:scroll;
+        background-size: cover;
+    }
+
+    section{
+        border: 3px solid white;
+        border-radius: 20px;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    }
+
+    img{
+        border-radius: 10px;
+        border: 7px solid rgb(4, 4, 76);
+        text-align: center;
+        width: 265px;
+        height: 250px;
+    }
+    
+    iframe{
+        border-radius: 10px;
+        border:7px solid rgb(4, 4, 76);
+        text-align: center;
+        width: 265px;
+        height: 250px;
+    }
+}
+
+@media(min-width:480px) and (max-width:600px){
+    img{
+        width: 400px;
+        height: 380px;
+    }
+    
+    iframe{
+        width: 400px;
+        height: 450px;
+    }
+}
+
+@media(min-width:600px) and (max-width:768px){
+    section{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px){
+    section{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+@media(min-width:1200px){
+    section{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+
 
 

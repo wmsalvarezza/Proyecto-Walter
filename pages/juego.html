@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego</title>
+    <link rel="stylesheet" href="../css/subpaginas.css">
+</head>
+<body>
+    <header>
+        <span><a href="../index.html" class="textoNaranja">Volver al inicio</a></span>
+    </header>
+    <main>
+        <section>
+            <h1>¿Verdadero o Falso?</h1>
+            <p id="question"></p>
+            <button onclick="checkAnswer(true)">Verdadero</button>
+            <button onclick="checkAnswer(false)">Falso</button>
+            <p id="result"></p>
+        </section>
+        <br><br>
+        <audio atr=autoplay controls loop>
+            <source src="../images/cancion2.mp3" type="audio/mpeg">
+        </audio>
+    </main>
+    <script src="../scripts/juego.js"></script>
+</body>
+</html>
+
