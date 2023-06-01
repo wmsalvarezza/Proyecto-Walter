@@ -14,6 +14,11 @@ a{
     margin: 12px;
 }
 
+a:hover{
+    color:rgb(216, 239, 100);
+    border: 3px solid rgb(72, 243, 103)
+}
+
 main{
     margin:0px;
     padding:20px;
@@ -451,8 +456,6 @@ footer{
     main{
         height: auto ;
         }
-    
-    
     
     img{
         border-radius: 10px;

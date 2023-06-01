@@ -53,7 +53,7 @@ let questions = [
       score++;
     } else {
       resultElement.innerHTML = "Incorrecto. La respuesta correcta es " + (questions[currentQuestion].answer ? "Verdadero" : "Falso") + ".";
-    }
+    };
   
     currentQuestion++;
   
@@ -62,12 +62,12 @@ let questions = [
     } else {
       endGame();
     }
-  }
+  };
   
   function showQuestion() {
     let questionElement = document.getElementById("question");
     questionElement.innerHTML = questions[currentQuestion].question;
-  }
+  };
   
   function endGame() {
     let questionElement = document.getElementById("question");
@@ -77,7 +77,7 @@ let questions = [
     resultElement.innerHTML = "Puntuación final: " + score;
     document.getElementsByTagName("button")[0].disabled = true;
     document.getElementsByTagName("button")[1].disabled = true;
-  }
+  };
   
   showQuestion();
   

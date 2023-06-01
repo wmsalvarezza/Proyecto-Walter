@@ -13,49 +13,50 @@
 <body>
     <main>
         <h1>Formulario de contacto</h1>
-        <section><form action="">
-            <fieldset>
-                <legend class="textoVerde">Información personal</legend>
-                <p class="textoBlanco">Nombre:</p> <input type="text" name="nombre">
+        <section>
+            <form id="form">
+                <fieldset>
+                    <legend class="textoVerde">Información personal</legend>
+                    <p class="textoBlanco">Nombre:</p> <input type="text" name="nombre">
+                    <br>
+                    <p class="textoBlanco">Edad:</p> <input type="text" name="nombre">
+                    <br>
+                    <p class="textoBlanco">Teléfono:</p> <input type="text" name="telefono">
+                </fieldset>
                 <br>
-                <p class="textoBlanco">Edad:</p> <input type="text" name="nombre">
+                <fieldset>
+                    <legend class="textoVerde">Experiencia en padel</legend>
+                    <div class="textoBlanco">Nunca jugué</div>
+                    <input type="radio" name="pregunta 1" value="nunca" class="textoBlanco"/>
+                    <div class="textoBlanco">Jugaba pero hace mucho tiempo que no toco una paleta</div>
+                    <input type="radio" name="pregunta 2" value="jugaba" class="textoBlanco"/>
+                    <div class="textoBlanco">Juego de vez en cuando</div>
+                    <input type="radio" name="pregunta 3" value="juego" class="textoBlanco"/>
+                    <div class="textoBlanco">Juego frecuentemente</div>
+                    <input type="radio" name="pregunta 4" value="frecuentemente" class="textoBlanco"/>
+                    <br>
+                </fieldset>
                 <br>
-                <p class="textoBlanco">Teléfono:</p> <input type="text" name="telefono">
-            </fieldset>
-            <br>
-            <fieldset>
-                <legend class="textoVerde">Experiencia en padel</legend>
-                <div class="textoBlanco">Nunca jugué</div>
-                <input type="radio" name="pregunta 1" value="nunca" class="textoBlanco"/>
-                <div class="textoBlanco">Jugaba pero hace mucho tiempo que no toco una paleta</div>
-                <input type="radio" name="pregunta 2" value="jugaba" class="textoBlanco"/>
-                <div class="textoBlanco">Juego de vez en cuando</div>
-                <input type="radio" name="pregunta 3" value="juego" class="textoBlanco"/>
-                <div class="textoBlanco">Juego frecuentemente</div>
-                <input type="radio" name="pregunta 4" value="frecuentemente" class="textoBlanco"/>
-                <br>
-            </fieldset>
-                <br>
-            <fieldset>
+                <fieldset>
                 <legend class="textoVerde">Comentarios</legend>
                 <textarea name="area" id="area" cols="auto" rows="5"></textarea>
-            </fieldset>
+                </fieldset>
                 <br>
-            <fieldset>
-                <legend class="textoVerde">Horario disponible</legend>
-                <select name="horario disponible" id="horario disponible">
-                    <option value="M" class="textoBlanco">Mañana</option>
-                    <option value="T" class="textoBlanco">Tarde</option>
-                    <option value="N" class="textoBlanco">Noche</option>
-                </select>
-            </fieldset>
+                <fieldset>
+                    <legend class="textoVerde">Horario disponible</legend>
+                    <select name="horario disponible" id="horarios">
+                        <option value="Mañana">Mañana</option>
+                        <option value="Tarde">Tarde</option>
+                        <option value="Noche">Noche</option>
+                    </select>
+                    <p id="mostrarHorario"></p>
+                </fieldset>
                 <br>
                 <input type="submit">
-                <input type="reset" value="Borrar campos">
-            </select>    
+                <input type="reset" value="Borrar campos">  
         </form>
         </section>
     </main>
-    
+    <script src="../scripts/formulario.js"></script>
 </body>
 </html>
