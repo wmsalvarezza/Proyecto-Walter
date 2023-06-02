@@ -82,8 +82,12 @@ img{
 
 iframe{
     border-radius: 10px;
+    border:7px solid rgb(4, 4, 76)
+}
+
+video{
+    border-radius: 10px;
     border:7px solid rgb(4, 4, 76);
-    
 }
 
 #jugar{
@@ -192,6 +196,14 @@ footer{
         height:320px;
     }
 
+    video{
+        border-radius: 10px;
+        border:7px solid rgb(4, 4, 76);
+        text-align:left;
+        width:210px;
+        height:320px;
+    }
+
     .flex-container{
         display:block;
         margin: 5px;
@@ -263,6 +275,14 @@ footer{
         height:400px;
     }
 
+    Video{
+        border-radius: 10px;
+        border:7px solid rgb(4, 4, 76);
+        text-align:left;
+        width:350px;
+        height:400px;
+    }
+
     main{height:auto;}
 }
 
@@ -298,6 +318,14 @@ footer{
     }
     
     iframe{
+        border-radius: 10px;
+        border:7px solid rgb(4, 4, 76);
+        text-align:left;
+        width:400px;
+        height:420px;
+    }
+
+    video{
         border-radius: 10px;
         border:7px solid rgb(4, 4, 76);
         text-align:left;
@@ -410,6 +438,15 @@ footer{
         width:420px;
         height:350px;
     }
+
+    video{
+        margin-left: 12%;
+        margin-right: 12%;
+        border-radius: 10px;
+        border:7px solid rgb(4, 4, 76);
+        width:420px;
+        height:350px;
+    }
     
     .grid-layout{
         display:block;    
@@ -467,6 +504,13 @@ footer{
     }
     
     iframe{
+        border-radius: 10px;
+        border:7px solid rgb(4, 4, 76);
+        text-align: center;
+        width: 340px;
+    }
+
+    video{
         border-radius: 10px;
         border:7px solid rgb(4, 4, 76);
         text-align: center;
